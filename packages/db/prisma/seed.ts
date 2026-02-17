@@ -1,4 +1,6 @@
 import { PrismaClient } from '@prisma/client';
+import * as fs from 'fs';
+import * as path from 'path';
 
 const prisma = new PrismaClient();
 
@@ -164,6 +166,69 @@ async function main() {
   }
 
   console.log(`✅ Seeded ${necRefs.length} NEC references`);
+
+  // ==============================================================
+  // SEED QUESTION TEMPLATES
+  // ==============================================================
+  console.log('📝 Seeding Question Templates...');
+
+  const questionsPath = path.join(__dirname, 'questions.json');
+  const questionsData = fs.readFileSync(questionsPath, 'utf-8');
+  const questions = JSON.parse(questionsData);
+
+  console.log(`📦 Loaded ${questions.length} questions from file`);
+
+  let questionCount = 0;
+  for (const q of questions) {
+    // Find or create necRef
+    let necRef = await prisma.necRef.findFirst({
+      where: {
+        article: q.necRef.article,
+        section: q.necRef.section || '',
+        edition: '2020',
+      },
+    });
+
+    if (!necRef) {
+      necRef = await prisma.necRef.create({
+        data: {
+          article: q.necRef.article,
+          section: q.necRef.section || '',
+          title: q.necRef.title,
+          edition: '2020',
+        },
+      });
+    }
+
+    // Create question
+    const question = await prisma.questionTemplate.create({
+      data: {
+        categoryCode: q.categoryCode,
+        prompt: q.prompt,
+        options: q.options,
+        answer: q.answer,
+        explanation: q.explanation,
+        difficulty: q.difficulty,
+        status: q.status,
+      },
+    });
+
+    // Link question to necRef
+    await prisma.questionTemplateNecRef.create({
+      data: {
+        questionId: question.id,
+        necRefId: necRef.id,
+        isPrimary: true,
+      },
+    });
+
+    questionCount++;
+    if (questionCount % 10 === 0) {
+      console.log(`  ✓ Seeded ${questionCount} questions`);
+    }
+  }
+
+  console.log(`✅ Seeded ${questionCount} total questions`);
 
   console.log('✨ Database seeding complete!');
 }

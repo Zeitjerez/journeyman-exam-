@@ -1,0 +1,1002 @@
+[
+  {
+    "categoryCode": "BC01",
+    "prompt": "What is the minimum cover requirement for direct-buried UF cable rated 0–600 volts installed in residential property not subject to vehicular traffic?",
+    "options": {"A": "12 inches", "B": "18 inches", "C": "24 inches", "D": "6 inches"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 Table 300.5, Column 3, direct-buried cable (0-600V) under residential property not subject to vehicular traffic requires 12 inches minimum cover.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "300", "section": "5", "title": "Underground Installations"}
+  },
+  {
+    "categoryCode": "BC01",
+    "prompt": "Rigid metal conduit (RMC) containing conductors rated 0–600 volts is installed under a residential driveway. What is the minimum required cover?",
+    "options": {"A": "6 inches", "B": "12 inches", "C": "18 inches", "D": "24 inches"},
+    "answer": "C",
+    "explanation": "According to NEC 2020 Table 300.5, RMC installed under a driveway requires a minimum cover of 18 inches.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "300", "section": "5", "title": "Underground Installations"}
+  },
+  {
+    "categoryCode": "BC01",
+    "prompt": "What is the maximum allowable conduit fill percentage for more than two conductors in a raceway?",
+    "options": {"A": "31%", "B": "40%", "C": "53%", "D": "60%"},
+    "answer": "B",
+    "explanation": "Chapter 9, Table 1 limits conduit fill to 40 percent when more than two conductors are installed in a raceway.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "Chapter 9", "section": "Table 1", "title": "Conduit Fill"}
+  },
+  {
+    "categoryCode": "BC01",
+    "prompt": "When installing exactly two individual conductors in a raceway, what is the maximum allowable conduit fill percentage per NEC Chapter 9 Table 1?",
+    "options": {"A": "31%", "B": "40%", "C": "53%", "D": "60%"},
+    "answer": "A",
+    "explanation": "Per Chapter 9 Table 1, when two individual conductors are installed in a raceway, the maximum fill is 31 percent.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "Chapter 9", "section": "Table 1", "title": "Conduit Fill"}
+  },
+  {
+    "categoryCode": "BC01",
+    "prompt": "How many 12 AWG insulated conductors are permitted in a 4-inch square box that is 1-1/2 inches deep, where all conductors originate and terminate in the box with no devices installed?",
+    "options": {"A": "6", "B": "7", "C": "8", "D": "9"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 Table 314.16(A), a 4-inch square box 1-1/2 inches deep has 21.0 cubic inches. Each 12 AWG conductor requires 2.25 cubic inches per 314.16(B)(1). Calculation: 21.0 ÷ 2.25 = 9.33 maximum, accounting for internal clamps reduces this to 8 conductors.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "314", "section": "16", "title": "Number of Conductors in Outlet, Device, and Junction Boxes"}
+  },
+  {
+    "categoryCode": "BC01",
+    "prompt": "Electrical metallic tubing (EMT) shall be securely fastened within what maximum distance of each outlet box, junction box, or cabinet?",
+    "options": {"A": "12 inches", "B": "18 inches", "C": "24 inches", "D": "36 inches"},
+    "answer": "D",
+    "explanation": "Per NEC 2020 358.30(A), EMT must be securely fastened within 3 feet (36 inches) of each box, cabinet, or fitting.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "358", "section": "30", "title": "Securing and Supporting"}
+  },
+  {
+    "categoryCode": "BC01",
+    "prompt": "At least how much free conductor length shall be left at each outlet, junction, and switch point for splices or connections?",
+    "options": {"A": "3 inches", "B": "6 inches", "C": "8 inches", "D": "12 inches"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 300.14, at least 6 inches of free conductor shall be left at each outlet, junction, and switch point.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "300", "section": "14", "title": "Length of Free Conductors at Outlets, Junctions, and Switch Points"}
+  },
+  {
+    "categoryCode": "BC01",
+    "prompt": "A raceway contains nine current-carrying conductors. What adjustment factor shall be applied to the allowable ampacity?",
+    "options": {"A": "100%", "B": "80%", "C": "70%", "D": "50%"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 310.15(B)(3)(a), where 7–9 current-carrying conductors are installed, the ampacity adjustment factor is 70 percent.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "310", "section": "15(B)(3)(a)", "title": "Adjustment Factors"}
+  },
+  {
+    "categoryCode": "BC01",
+    "prompt": "Nonmetallic-sheathed cable (Type NM) shall be supported at intervals not exceeding what distance?",
+    "options": {"A": "3 feet", "B": "4-1/2 feet", "C": "6 feet", "D": "8 feet"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 334.30, NM cable shall be supported and secured at intervals not exceeding 4-1/2 feet.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "334", "section": "30", "title": "Securing and Supporting"}
+  },
+  {
+    "categoryCode": "BC01",
+    "prompt": "Metal-clad (MC) cable shall be supported and secured at intervals not exceeding what distance?",
+    "options": {"A": "3 feet", "B": "4 feet", "C": "6 feet", "D": "10 feet"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 330.30, MC cable shall be supported and secured at intervals not exceeding 6 feet.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "330", "section": "30", "title": "Securing and Supporting"}
+  },
+  {
+    "categoryCode": "BC02",
+    "prompt": "A 120-volt, single-phase, 15-ampere branch circuit supplying outlets in a dwelling unit bedroom shall be provided with what type of protection?",
+    "options": {"A": "GFCI protection only", "B": "Arc-fault circuit-interrupter protection", "C": "Ground-fault protection of equipment", "D": "No additional protection required"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 210.12(A), all 120-volt, single-phase, 15- and 20-ampere branch circuits supplying outlets in dwelling unit bedrooms shall be protected by a listed arc-fault circuit interrupter.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "210", "section": "12(A)", "title": "Arc-Fault Circuit-Interrupter Protection"}
+  },
+  {
+    "categoryCode": "BC02",
+    "prompt": "A 20-ampere, 120-volt branch circuit supplying outlets in a dwelling unit family room requires which protection method?",
+    "options": {"A": "AFCI protection", "B": "GFCI protection", "C": "Ground-fault protection of equipment", "D": "No protection required"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 210.12(A), 120-volt, single-phase, 15- and 20-ampere branch circuits supplying outlets in family rooms of dwelling units require AFCI protection.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "210", "section": "12(A)", "title": "Arc-Fault Circuit-Interrupter Protection"}
+  },
+  {
+    "categoryCode": "BC02",
+    "prompt": "In a dwelling unit, receptacles shall be installed so that no point along the floor line in any wall space is more than how many feet from a receptacle outlet?",
+    "options": {"A": "4 feet", "B": "6 feet", "C": "8 feet", "D": "12 feet"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 210.52(A)(1), receptacles shall be placed so that no point along the floor line of any wall space is more than 6 feet from a receptacle outlet.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "210", "section": "52(A)(1)", "title": "Dwelling Unit Receptacle Outlets"}
+  },
+  {
+    "categoryCode": "BC02",
+    "prompt": "A receptacle outlet shall be installed in dwelling unit wall spaces that are at least what minimum width?",
+    "options": {"A": "12 inches", "B": "18 inches", "C": "24 inches", "D": "36 inches"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 210.52(A)(2), any wall space 2 feet (24 inches) or more in width requires a receptacle outlet.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "210", "section": "52(A)(2)", "title": "Wall Space"}
+  },
+  {
+    "categoryCode": "BC02",
+    "prompt": "What size copper grounding electrode conductor is required for a service with 3/0 AWG copper service-entrance conductors?",
+    "options": {"A": "8 AWG", "B": "6 AWG", "C": "4 AWG", "D": "2 AWG"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 Table 250.66, where the largest ungrounded service-entrance conductor is 3/0 AWG copper, the required copper grounding electrode conductor is 6 AWG.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "250", "section": "66", "title": "Size of Alternating-Current Grounding Electrode Conductor"}
+  },
+  {
+    "categoryCode": "BC02",
+    "prompt": "What is the minimum size copper equipment grounding conductor for a 60-ampere overcurrent device?",
+    "options": {"A": "10 AWG", "B": "8 AWG", "C": "6 AWG", "D": "4 AWG"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 Table 250.122, a 60-ampere overcurrent device requires a minimum 10 AWG copper equipment grounding conductor.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "250", "section": "122", "title": "Size of Equipment Grounding Conductors"}
+  },
+  {
+    "categoryCode": "BC02",
+    "prompt": "A 20-ampere branch circuit supplies a continuous load of 16 amperes. What is the minimum rating of the overcurrent device required?",
+    "options": {"A": "16 amperes", "B": "20 amperes", "C": "25 amperes", "D": "30 amperes"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 210.20(A), the overcurrent device shall be rated not less than 125 percent of the continuous load. 16A × 125% = 20A. Since 20 amperes is a standard rating per 240.6(A), a 20-ampere device is the minimum required.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "210", "section": "20(A)", "title": "Overcurrent Protection"}
+  },
+  {
+    "categoryCode": "BC02",
+    "prompt": "What is the minimum ampacity required for branch-circuit conductors supplying a continuous load of 24 amperes?",
+    "options": {"A": "24 amperes", "B": "26 amperes", "C": "30 amperes", "D": "32 amperes"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 210.19(A)(1), branch-circuit conductors shall have an ampacity not less than 125 percent of the continuous load. 24A × 125% = 30 amperes.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "210", "section": "19(A)(1)", "title": "Branch-Circuit Conductors"}
+  },
+  {
+    "categoryCode": "BC02",
+    "prompt": "Standard ampere ratings for fuses and inverse time circuit breakers include which of the following?",
+    "options": {"A": "22 amperes", "B": "25 amperes", "C": "27 amperes", "D": "28 amperes"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 240.6(A), 25 amperes is a standard ampere rating for fuses and inverse time circuit breakers.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "240", "section": "6(A)", "title": "Standard Ampere Ratings"}
+  },
+  {
+    "categoryCode": "BC02",
+    "prompt": "A branch circuit supplies a noncontinuous load of 40 amperes and a continuous load of 20 amperes. What is the minimum required rating of the overcurrent device?",
+    "options": {"A": "50 amperes", "B": "60 amperes", "C": "65 amperes", "D": "70 amperes"},
+    "answer": "D",
+    "explanation": "Per NEC 2020 210.20(A), the overcurrent device shall be rated not less than the noncontinuous load plus 125% of the continuous load. Calculation: 40A + (20A × 125%) = 40A + 25A = 65A. Since 65A is not a standard rating per 240.6(A), the next standard size is 70 amperes.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "210", "section": "20(A)", "title": "Overcurrent Protection"}
+  },
+  {
+    "categoryCode": "BC03",
+    "prompt": "According to NEC Article 100, what is the definition of \"Grounded\"?",
+    "options": {"A": "Connected to earth or to some conducting body that serves in place of the earth", "B": "Connected to equipment grounding conductor only", "C": "Intentionally connected to a circuit breaker", "D": "Bonded to a metal enclosure"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 Article 100, Grounded is defined as connected to earth or to some conducting body that serves in place of the earth.",
+    "difficulty": 1,
+    "status": "validated",
+    "necRef": {"article": "100", "section": "", "title": "Definitions"}
+  },
+  {
+    "categoryCode": "BC03",
+    "prompt": "How does NEC Article 100 define \"Bonding\"?",
+    "options": {"A": "The permanent joining of metallic parts to form an electrically conductive path", "B": "Connecting a conductor to earth", "C": "Splicing conductors together", "D": "Installing a grounding electrode conductor"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 Article 100, Bonding is defined as the permanent joining of metallic parts to form an electrically conductive path.",
+    "difficulty": 1,
+    "status": "validated",
+    "necRef": {"article": "100", "section": "", "title": "Definitions"}
+  },
+  {
+    "categoryCode": "BC03",
+    "prompt": "According to NEC Article 100, what is an \"Outlet\"?",
+    "options": {"A": "A point on the wiring system where current is taken to supply utilization equipment", "B": "A device for the connection of attachment plugs", "C": "A switch controlling a lighting load", "D": "A panelboard supplying branch circuits"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 Article 100, an Outlet is a point on the wiring system where current is taken to supply utilization equipment.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "100", "section": "", "title": "Definitions"}
+  },
+  {
+    "categoryCode": "BC03",
+    "prompt": "A 120-volt circuit supplies a load drawing 10 amperes. What is the resistance of the load?",
+    "options": {"A": "6 ohms", "B": "8 ohms", "C": "10 ohms", "D": "12 ohms"},
+    "answer": "D",
+    "explanation": "Using Ohm's Law (R = V ÷ I): 120V ÷ 10A = 12 ohms.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "110", "section": "", "title": "General Requirements for Electrical Installations"}
+  },
+  {
+    "categoryCode": "BC03",
+    "prompt": "A resistance heater rated at 240 volts draws 20 amperes. What is the power consumed?",
+    "options": {"A": "2,400 watts", "B": "3,600 watts", "C": "4,800 watts", "D": "5,200 watts"},
+    "answer": "C",
+    "explanation": "Using the power formula (P = V × I): 240V × 20A = 4,800 watts.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "110", "section": "", "title": "General Requirements for Electrical Installations"}
+  },
+  {
+    "categoryCode": "BC03",
+    "prompt": "If a circuit has 10 kVA of apparent power and 8 kW of real power, what is the power factor?",
+    "options": {"A": "0.60", "B": "0.75", "C": "0.80", "D": "1.25"},
+    "answer": "C",
+    "explanation": "Power factor = kW ÷ kVA. 8 kW ÷ 10 kVA = 0.80.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "110", "section": "", "title": "General Requirements for Electrical Installations"}
+  },
+  {
+    "categoryCode": "BC03",
+    "prompt": "A 120-volt branch circuit has a calculated voltage drop of 4 volts. What is the percentage voltage drop?",
+    "options": {"A": "1%", "B": "2%", "C": "3.3%", "D": "5%"},
+    "answer": "C",
+    "explanation": "Voltage drop percentage = (4V ÷ 120V) × 100 = 3.3 percent.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "110", "section": "", "title": "General Requirements for Electrical Installations"}
+  },
+  {
+    "categoryCode": "BC03",
+    "prompt": "What is the minimum required depth of working space in front of 0–150 volt equipment to ground under Condition 1?",
+    "options": {"A": "24 inches", "B": "30 inches", "C": "36 inches", "D": "42 inches"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 Table 110.26(A)(1), for 0–150 volts to ground under Condition 1, the required depth of working space is 3 feet (36 inches).",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "110", "section": "26(A)(1)", "title": "Spaces About Electrical Equipment"}
+  },
+  {
+    "categoryCode": "BC03",
+    "prompt": "Equipment terminals rated 75°C shall be used with conductors sized based on which temperature column of Table 310.16?",
+    "options": {"A": "60°C column", "B": "75°C column", "C": "90°C column", "D": "Any column permitted"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 110.14(C)(1)(a), conductors shall be sized based on the temperature rating associated with the equipment termination. For 75°C terminals, the 75°C column applies.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "110", "section": "14(C)", "title": "Electrical Connections"}
+  },
+  {
+    "categoryCode": "BC03",
+    "prompt": "Conductors shall be spliced or joined with devices identified for the use or by brazing, welding, or soldering with a fusible metal in accordance with which NEC section?",
+    "options": {"A": "110.14(A)", "B": "110.26", "C": "250.122", "D": "300.5"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 110.14(A), conductors shall be spliced or joined with devices identified for the use or by brazing, welding, or soldering with a fusible metal.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "110", "section": "14(A)", "title": "Electrical Connections"}
+  },
+  {
+    "categoryCode": "BC04",
+    "prompt": "A snap switch used to control a 15-ampere lighting load on a 120-volt branch circuit shall have a minimum ampere rating of:",
+    "options": {"A": "10 amperes", "B": "15 amperes", "C": "20 amperes", "D": "30 amperes"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 404.14(A), general-use snap switches shall be rated not less than the load served. A 15-ampere load requires a 15-ampere rated switch.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "404", "section": "14(A)", "title": "Switch Ratings"}
+  },
+  {
+    "categoryCode": "BC04",
+    "prompt": "A general-use snap switch controlling a motor load shall have an ampere rating of at least what percentage of the motor full-load current?",
+    "options": {"A": "80%", "B": "100%", "C": "125%", "D": "150%"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 404.14(A), switches controlling motor loads shall have a rating not less than 125 percent of the motor full-load current.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "404", "section": "14(A)", "title": "Switch Ratings"}
+  },
+  {
+    "categoryCode": "BC04",
+    "prompt": "A single receptacle installed on an individual branch circuit shall have an ampere rating not less than the branch-circuit rating in accordance with which section?",
+    "options": {"A": "406.4(D)", "B": "406.3(D)", "C": "408.4", "D": "404.14"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 406.3(D), a single receptacle installed on an individual branch circuit shall have an ampere rating not less than that of the branch circuit.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "406", "section": "3(D)", "title": "Receptacle Rating and Type"}
+  },
+  {
+    "categoryCode": "BC04",
+    "prompt": "Every circuit and circuit modification shall be legibly identified as to its clear, evident, and specific purpose or use in accordance with which NEC section?",
+    "options": {"A": "404.14", "B": "406.4", "C": "408.4(A)", "D": "410.10"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 408.4(A), every circuit and circuit modification shall be legibly identified as to its clear, evident, and specific purpose or use.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "408", "section": "4(A)", "title": "Circuit Directory"}
+  },
+  {
+    "categoryCode": "BC04",
+    "prompt": "Luminaires installed in wet locations shall be:",
+    "options": {"A": "Open type only", "B": "Identified for damp locations", "C": "Identified for wet locations", "D": "Enclosed and gasketed"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 410.10(A), luminaires installed in wet locations shall be identified for use in wet locations.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "410", "section": "10(A)", "title": "Luminaires in Specific Locations"}
+  },
+  {
+    "categoryCode": "BC04",
+    "prompt": "Luminaires shall not be installed within the space measured 3 feet horizontally and 8 feet vertically from the top of a bathtub rim unless marked for which location?",
+    "options": {"A": "Dry locations", "B": "Damp locations", "C": "Wet locations", "D": "Hazardous locations"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 410.10(D), luminaires within the bathtub or shower space shall be marked suitable for wet locations.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "410", "section": "10(D)", "title": "Bathtub and Shower Areas"}
+  },
+  {
+    "categoryCode": "BC04",
+    "prompt": "Branch circuits supplying fixed electric space-heating equipment shall be considered what type of load?",
+    "options": {"A": "Intermittent load", "B": "Noncontinuous load", "C": "Continuous load", "D": "Motor load"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 424.3(B), branch circuits supplying fixed electric space-heating equipment shall be considered continuous loads.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "424", "section": "3(B)", "title": "Branch Circuits"}
+  },
+  {
+    "categoryCode": "BC04",
+    "prompt": "The rating or setting of the branch-circuit short-circuit and ground-fault protective device for an air-conditioning motor-compressor shall not exceed what percentage of the motor-compressor rated-load current for a hermetic refrigerant motor-compressor?",
+    "options": {"A": "125%", "B": "150%", "C": "175%", "D": "225%"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 440.22(A), the branch-circuit short-circuit and ground-fault protective device shall not exceed 175 percent of the motor-compressor rated-load current for a hermetic refrigerant motor-compressor.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "440", "section": "22(A)", "title": "Branch-Circuit Short-Circuit and Ground-Fault Protection"}
+  },
+  {
+    "categoryCode": "BC04",
+    "prompt": "Attachment plugs and receptacles shall be of the grounding type where installed on which of the following systems?",
+    "options": {"A": "Two-wire ungrounded systems", "B": "Grounded AC systems", "C": "Low-voltage lighting systems only", "D": "DC systems only"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 406.4(D), receptacles installed on grounded AC systems shall be of the grounding type.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "406", "section": "4(D)", "title": "Replacements"}
+  },
+  {
+    "categoryCode": "BC04",
+    "prompt": "Equipment shall be installed and used in accordance with any instructions included in the listing or labeling as required by which NEC section?",
+    "options": {"A": "110.3(B)", "B": "404.14", "C": "408.4", "D": "410.10"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 110.3(B), listed or labeled equipment shall be installed and used in accordance with any instructions included in the listing or labeling.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "110", "section": "3(B)", "title": "Installation and Use"}
+  },
+  {
+    "categoryCode": "BC05",
+    "prompt": "On an electrical floor plan, a symbol consisting of a circle with two parallel lines inside typically represents which of the following?",
+    "options": {"A": "Single-pole switch", "B": "Duplex receptacle outlet", "C": "Lighting outlet", "D": "Panelboard"},
+    "answer": "B",
+    "explanation": "On standard electrical plans, a circle with two parallel lines typically indicates a duplex receptacle. NEC 210.52 governs receptacle outlet placement in dwelling units.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "210", "section": "52", "title": "Dwelling Unit Receptacle Outlets"}
+  },
+  {
+    "categoryCode": "BC05",
+    "prompt": "A symbol marked \"S3\" adjacent to a switch location on a plan most commonly indicates:",
+    "options": {"A": "Single-pole switch", "B": "Three-way switch", "C": "Four-way switch", "D": "Dimmer switch"},
+    "answer": "B",
+    "explanation": "On electrical drawings, \"S3\" commonly designates a three-way switch. NEC 404 covers switch installations and ratings.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "404", "section": "", "title": "Switches"}
+  },
+  {
+    "categoryCode": "BC05",
+    "prompt": "A panel schedule shows a continuous load of 32 amperes on a 40-ampere branch circuit. What is the minimum required ampacity of the branch-circuit conductors?",
+    "options": {"A": "32 amperes", "B": "35 amperes", "C": "40 amperes", "D": "50 amperes"},
+    "answer": "C",
+    "explanation": "Per NEC 210.19(A)(1), branch-circuit conductors supplying continuous loads shall have an ampacity of not less than 125% of the continuous load. 32A × 125% = 40A.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "210", "section": "19(A)(1)", "title": "Branch-Circuit Conductors"}
+  },
+  {
+    "categoryCode": "BC05",
+    "prompt": "A load schedule indicates a dwelling unit general lighting load of 3,600 VA. What minimum branch-circuit ampere rating is required for a 120-volt circuit?",
+    "options": {"A": "15 amperes", "B": "20 amperes", "C": "25 amperes", "D": "30 amperes"},
+    "answer": "D",
+    "explanation": "Using I = VA ÷ V: 3,600 VA ÷ 120 V = 30A. Per NEC 220.12 and 210.20(A), the branch circuit must be rated not less than the calculated load.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "220", "section": "12", "title": "General Lighting Load for Dwelling Units"}
+  },
+  {
+    "categoryCode": "BC05",
+    "prompt": "A one-line diagram shows a 200-ampere service disconnect feeding a panelboard. What is the minimum required rating of the panelboard bus?",
+    "options": {"A": "150 amperes", "B": "175 amperes", "C": "200 amperes", "D": "225 amperes"},
+    "answer": "C",
+    "explanation": "Per NEC 408.36 and 110.3(B), panelboards and equipment must be rated not less than the rating of the overcurrent device supplying them. A 200A feeder requires a 200A-rated panelboard.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "408", "section": "36", "title": "Overcurrent Protection"}
+  },
+  {
+    "categoryCode": "BC05",
+    "prompt": "A one-line diagram shows a feeder supplying two panels with calculated loads of 80A and 60A noncontinuous. What is the minimum feeder overcurrent device rating?",
+    "options": {"A": "125 amperes", "B": "140 amperes", "C": "150 amperes", "D": "160 amperes"},
+    "answer": "C",
+    "explanation": "Per NEC 215.2(A)(1) and 215.3, feeder overcurrent protection shall not be less than the sum of the loads served. 80A + 60A = 140A. The next standard rating per 240.6(A) is 150A.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "215", "section": "3", "title": "Overcurrent Protection"}
+  },
+  {
+    "categoryCode": "BC05",
+    "prompt": "A panel schedule shows Circuit 12 labeled \"WH\" rated 4,500 watts at 240 volts. What is the calculated current?",
+    "options": {"A": "16.7 amperes", "B": "18.8 amperes", "C": "20 amperes", "D": "25 amperes"},
+    "answer": "B",
+    "explanation": "Using I = P ÷ V: 4,500W ÷ 240V = 18.75A. Per NEC 422 and 210.19(A), conductor sizing must account for calculated load.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "210", "section": "19(A)", "title": "Branch-Circuit Conductors"}
+  },
+  {
+    "categoryCode": "BC05",
+    "prompt": "Project specifications require all equipment to be installed per manufacturer instructions. Which NEC section enforces this requirement?",
+    "options": {"A": "110.3(B)", "B": "210.52", "C": "220.12", "D": "300.5"},
+    "answer": "A",
+    "explanation": "Per NEC 110.3(B), listed or labeled equipment shall be installed and used in accordance with the instructions included in the listing or labeling.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "110", "section": "3(B)", "title": "Installation and Use"}
+  },
+  {
+    "categoryCode": "BC05",
+    "prompt": "Blueprints indicate receptacles spaced 8 feet apart along a dwelling unit wall. Is this installation compliant with NEC spacing requirements?",
+    "options": {"A": "Yes, spacing is acceptable", "B": "No, receptacles must be within 6 feet of any point", "C": "Yes, if AFCI protected", "D": "No, receptacles must be every 4 feet"},
+    "answer": "B",
+    "explanation": "Per NEC 210.52(A)(1), receptacles must be placed so that no point along the floor line is more than 6 feet from a receptacle outlet.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "210", "section": "52(A)(1)", "title": "Dwelling Unit Receptacle Outlets"}
+  },
+  {
+    "categoryCode": "BC05",
+    "prompt": "A blueprint indicates a neutral conductor identified in white. Which NEC article governs identification of grounded conductors?",
+    "options": {"A": "Article 110", "B": "Article 200", "C": "Article 210", "D": "Article 220"},
+    "answer": "B",
+    "explanation": "NEC Article 200 covers identification of grounded conductors, including the requirement for white or gray insulation.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "200", "section": "", "title": "Use and Identification of Grounded Conductors"}
+  },
+  {
+    "categoryCode": "BC06",
+    "prompt": "Communications cable grounding conductors shall be connected to which of the following in accordance with NEC 800.100?",
+    "options": {"A": "A nearby cold water pipe only", "B": "The grounding electrode system", "C": "Any branch-circuit equipment grounding conductor", "D": "A driven rod independent of the service"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 800.100(A), communications cable grounding conductors shall be connected to the building grounding electrode system.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "800", "section": "100(A)", "title": "Grounding of Communications Circuits"}
+  },
+  {
+    "categoryCode": "BC06",
+    "prompt": "The communications grounding conductor shall be as short as practicable and shall not exceed what length where practicable?",
+    "options": {"A": "10 feet", "B": "15 feet", "C": "20 feet", "D": "25 feet"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 800.100(A)(4), the grounding conductor shall be as short as practicable and not exceed 20 feet in length where practicable.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "800", "section": "100(A)(4)", "title": "Grounding Conductor"}
+  },
+  {
+    "categoryCode": "BC06",
+    "prompt": "Communications cables shall be separated from conductors of electric light or power circuits unless one of the following conditions is met. What is the minimum separation required where installed in open runs?",
+    "options": {"A": "1 inch", "B": "2 inches", "C": "3 inches", "D": "6 inches"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 800.133(A)(2), communications cables shall maintain a minimum separation of 2 inches from conductors of electric light or power circuits in open runs.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "800", "section": "133(A)(2)", "title": "Separation from Other Conductors"}
+  },
+  {
+    "categoryCode": "BC06",
+    "prompt": "Communications cables installed in the same raceway with power conductors are permitted only when:",
+    "options": {"A": "The voltage does not exceed 120 volts", "B": "They are separated by a barrier", "C": "All conductors are insulated for the maximum voltage of any conductor in the raceway", "D": "The raceway is PVC"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 800.133(A)(1)(c), communications conductors are permitted in the same raceway as power conductors only if all conductors are insulated for the maximum voltage of any conductor in the raceway.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "800", "section": "133(A)(1)(c)", "title": "Separation from Other Conductors"}
+  },
+  {
+    "categoryCode": "BC06",
+    "prompt": "Communications cables installed in plenums shall be listed as which type?",
+    "options": {"A": "CM", "B": "CMR", "C": "CMP", "D": "CMX"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 800.154(A), communications cables installed in plenums shall be listed as CMP (plenum-rated).",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "800", "section": "154(A)", "title": "Applications of Listed Communications Cables"}
+  },
+  {
+    "categoryCode": "BC06",
+    "prompt": "Communications cables shall be supported by the building structure and shall not be supported by:",
+    "options": {"A": "Cable trays", "B": "Running boards", "C": "Ceiling grid support wires", "D": "Listed supports"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 800.24, communications cables shall not be supported by ceiling grid support wires.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "800", "section": "24", "title": "Mechanical Execution of Work"}
+  },
+  {
+    "categoryCode": "BC06",
+    "prompt": "Radio and television receiving equipment lead-in conductors from an outdoor antenna shall be grounded in accordance with which NEC article?",
+    "options": {"A": "Article 725", "B": "Article 760", "C": "Article 800", "D": "Article 810"},
+    "answer": "D",
+    "explanation": "Per NEC 2020 Article 810, radio and television receiving equipment, including antenna lead-in conductors, shall be grounded as specified.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "810", "section": "", "title": "Radio and Television Equipment"}
+  },
+  {
+    "categoryCode": "BC06",
+    "prompt": "Communications cables shall be installed in a neat and workmanlike manner in accordance with which general NEC requirement?",
+    "options": {"A": "110.12", "B": "200.6", "C": "210.52", "D": "250.66"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 110.12, electrical equipment, including communications systems, shall be installed in a neat and workmanlike manner.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "110", "section": "12", "title": "Mechanical Execution of Work"}
+  },
+  {
+    "categoryCode": "BC06",
+    "prompt": "Communications cables installed exposed to physical damage shall be:",
+    "options": {"A": "Installed without protection if under 120 volts", "B": "Protected by raceway or other approved means", "C": "Wrapped with tape", "D": "Installed in flexible cord"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 800.24 and 300.4, communications cables exposed to physical damage shall be protected by raceway or other approved means.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "800", "section": "24", "title": "Mechanical Execution of Work"}
+  },
+  {
+    "categoryCode": "BC06",
+    "prompt": "Communications cables shall not be placed in any shaft or vertical run unless installed in accordance with which listing type for riser applications?",
+    "options": {"A": "CMX", "B": "CM", "C": "CMR", "D": "CMP"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 800.154(B), communications cables installed in vertical runs between floors shall be listed as CMR (riser-rated).",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "800", "section": "154(B)", "title": "Applications of Listed Communications Cables"}
+  },
+  {
+    "categoryCode": "BC07",
+    "prompt": "A single-phase motor has a full-load current of 28 amperes. What is the minimum ampacity required for the branch-circuit conductors?",
+    "options": {"A": "28 amperes", "B": "32 amperes", "C": "35 amperes", "D": "40 amperes"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 430.22(A), branch-circuit conductors supplying a single motor shall have an ampacity of not less than 125% of the motor full-load current. 28A × 125% = 35A.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "430", "section": "22(A)", "title": "Single Motor"}
+  },
+  {
+    "categoryCode": "BC07",
+    "prompt": "A three-phase motor has a full-load current of 40 amperes. What is the minimum required branch-circuit conductor ampacity?",
+    "options": {"A": "40 amperes", "B": "45 amperes", "C": "50 amperes", "D": "55 amperes"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 430.22(A), conductors supplying a motor shall have an ampacity of not less than 125% of the motor full-load current. 40A × 125% = 50A.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "430", "section": "22(A)", "title": "Single Motor"}
+  },
+  {
+    "categoryCode": "BC07",
+    "prompt": "For a motor with a nameplate service factor of 1.15, the overload device shall not exceed what percentage of the motor nameplate current?",
+    "options": {"A": "115%", "B": "125%", "C": "130%", "D": "140%"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 430.32(A)(1), motors with a service factor of 1.15 or greater shall have overload protection set at not more than 125% of the motor nameplate current.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "430", "section": "32(A)(1)", "title": "Continuous-Duty Motors"}
+  },
+  {
+    "categoryCode": "BC07",
+    "prompt": "If a motor does not have a service factor of 1.15, the overload protection shall not exceed what percentage of the motor nameplate current?",
+    "options": {"A": "100%", "B": "115%", "C": "125%", "D": "140%"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 430.32(A)(1), motors without a service factor of 1.15 shall have overload protection set at not more than 115% of the motor nameplate current.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "430", "section": "32(A)(1)", "title": "Continuous-Duty Motors"}
+  },
+  {
+    "categoryCode": "BC07",
+    "prompt": "Using an inverse time circuit breaker for a motor with a full-load current of 30 amperes, what is the maximum rating permitted per Table 430.52?",
+    "options": {"A": "40A", "B": "50A", "C": "60A", "D": "75A"},
+    "answer": "D",
+    "explanation": "Per NEC 2020 Table 430.52, inverse time circuit breakers are permitted up to 250% of motor full-load current. 30A × 250% = 75A maximum permitted.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "430", "section": "52", "title": "Rating or Setting for Individual Motor Circuit"}
+  },
+  {
+    "categoryCode": "BC07",
+    "prompt": "A motor has a full-load current of 20 amperes. What is the maximum rating of a time-delay fuse permitted by Table 430.52?",
+    "options": {"A": "30 amperes", "B": "35 amperes", "C": "40 amperes", "D": "50 amperes"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 Table 430.52, time-delay fuses are permitted up to 175% of the motor full-load current. 20A × 175% = 35A. Since 35 amperes is a standard fuse rating per 240.6(A), 35A is the maximum permitted.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "430", "section": "52", "title": "Rating or Setting for Individual Motor Circuit"}
+  },
+  {
+    "categoryCode": "BC07",
+    "prompt": "A motor controller shall have a horsepower rating not less than:",
+    "options": {"A": "50% of the motor horsepower", "B": "75% of the motor horsepower", "C": "Equal to or greater than the motor horsepower", "D": "Twice the motor horsepower"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 430.83(A)(1), the controller shall have a horsepower rating not less than the horsepower rating of the motor.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "430", "section": "83(A)(1)", "title": "Rating"}
+  },
+  {
+    "categoryCode": "BC07",
+    "prompt": "Feeder conductors supplying multiple motors shall have an ampacity not less than the sum of the full-load currents of all motors plus what percentage of the highest-rated motor?",
+    "options": {"A": "100%", "B": "115%", "C": "125%", "D": "150%"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 430.24, feeder conductors shall have an ampacity not less than 125% of the full-load current of the highest-rated motor plus the sum of the full-load currents of all other motors.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "430", "section": "24", "title": "Several Motors or a Motor(s) and Other Load(s)"}
+  },
+  {
+    "categoryCode": "BC07",
+    "prompt": "For a hermetic refrigerant motor-compressor, the branch-circuit short-circuit and ground-fault protective device shall not exceed what percentage of the rated-load current?",
+    "options": {"A": "125%", "B": "150%", "C": "175%", "D": "225%"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 440.22(A), the protective device shall not exceed 175% of the motor-compressor rated-load current.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "440", "section": "22(A)", "title": "Branch-Circuit Short-Circuit and Ground-Fault Protection"}
+  },
+  {
+    "categoryCode": "BC07",
+    "prompt": "Conductors supplying a hermetic refrigerant motor-compressor shall have an ampacity not less than what percentage of the rated-load current?",
+    "options": {"A": "100%", "B": "115%", "C": "125%", "D": "140%"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 440.32, branch-circuit conductors supplying a single motor-compressor shall have an ampacity not less than 125% of the rated-load current.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "440", "section": "32", "title": "Branch-Circuit Conductors"}
+  },
+  {
+    "categoryCode": "BC08",
+    "prompt": "Emergency systems shall be supplied by which of the following sources in accordance with NEC 700.12?",
+    "options": {"A": "Utility service only", "B": "Optional standby system", "C": "Storage batteries, generator set, or other approved source", "D": "Cord-and-plug connection"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 700.12(A), emergency systems shall be supplied by storage batteries, generator sets, uninterruptible power supplies, or other approved sources.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "700", "section": "12(A)", "title": "Power Sources"}
+  },
+  {
+    "categoryCode": "BC08",
+    "prompt": "Where a generator is used as the emergency power source, the system shall be arranged to automatically supply power within what maximum time?",
+    "options": {"A": "5 seconds", "B": "10 seconds", "C": "30 seconds", "D": "60 seconds"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 700.12(B), emergency systems shall be arranged to supply power within 10 seconds after loss of normal power.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "700", "section": "12(B)", "title": "Generator Set"}
+  },
+  {
+    "categoryCode": "BC08",
+    "prompt": "Class 1 circuit conductors shall be installed in accordance with which wiring methods article?",
+    "options": {"A": "Article 300", "B": "Article 310", "C": "Article 725 only", "D": "Article 760"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 725.46, Class 1 circuits shall be installed in accordance with Article 300 requirements for wiring methods.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "725", "section": "46", "title": "Wiring Methods"}
+  },
+  {
+    "categoryCode": "BC08",
+    "prompt": "Class 1 circuit conductors installed with power conductors in the same raceway shall:",
+    "options": {"A": "Be separated by a barrier", "B": "Be limited to 30 volts", "C": "Have insulation rated for the maximum voltage present", "D": "Be twisted pair only"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 725.48(A), Class 1 circuit conductors installed with power conductors shall have insulation rated for the maximum voltage of any conductor in the raceway.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "725", "section": "48(A)", "title": "Conductors of Different Circuits in Same Cable, Enclosure, or Raceway"}
+  },
+  {
+    "categoryCode": "BC08",
+    "prompt": "Power-limited fire alarm circuits shall be installed in accordance with which article?",
+    "options": {"A": "Article 700", "B": "Article 725", "C": "Article 760", "D": "Article 800"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 Article 760, power-limited fire alarm circuits shall comply with the installation requirements of Article 760.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "760", "section": "", "title": "Fire Alarm Systems"}
+  },
+  {
+    "categoryCode": "BC08",
+    "prompt": "Non–power-limited fire alarm circuit conductors shall be installed using wiring methods in accordance with which article?",
+    "options": {"A": "Article 110", "B": "Article 300", "C": "Article 408", "D": "Article 406"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 760.43, non–power-limited fire alarm circuits shall be installed in accordance with Article 300 wiring methods.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "760", "section": "43", "title": "Wiring Methods and Materials—Non–Power-Limited"}
+  },
+  {
+    "categoryCode": "BC08",
+    "prompt": "Legally required standby systems shall supply loads that are intended to:",
+    "options": {"A": "Provide optional convenience", "B": "Protect human life", "C": "Support national defense", "D": "Prevent interruption of public services"},
+    "answer": "D",
+    "explanation": "Per NEC 2020 701.1, legally required standby systems are intended to supply loads whose interruption could create hazards or hamper public services.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "701", "section": "1", "title": "Scope"}
+  },
+  {
+    "categoryCode": "BC08",
+    "prompt": "CATV coaxial cable grounding shall comply with which NEC article?",
+    "options": {"A": "Article 725", "B": "Article 760", "C": "Article 800", "D": "Article 820"},
+    "answer": "D",
+    "explanation": "Per NEC 2020 Article 820, community antenna television and radio distribution systems shall comply with grounding and bonding requirements of Article 820.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "820", "section": "", "title": "Community Antenna Television and Radio Distribution Systems"}
+  },
+  {
+    "categoryCode": "BC08",
+    "prompt": "Class 2 and Class 3 circuits are considered power-limited when supplied by a source that complies with which article?",
+    "options": {"A": "Article 110", "B": "Article 725", "C": "Article 700", "D": "Article 430"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 Article 725, Class 2 and Class 3 circuits are power-limited circuits when supplied by a compliant power source as defined in Article 725.",
+    "difficulty": 2,
+    "status": "validated",
+    "necRef": {"article": "725", "section": "", "title": "Class 1, Class 2, and Class 3 Remote-Control, Signaling, and Power-Limited Circuits"}
+  },
+  {
+    "categoryCode": "BC08",
+    "prompt": "Power-limited fire alarm cables installed in plenums shall be listed as which type?",
+    "options": {"A": "FPL", "B": "FPLR", "C": "FPLP", "D": "FPLX"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 760.154(A), fire alarm cables installed in plenums shall be listed as FPLP (plenum-rated).",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "760", "section": "154(A)", "title": "Applications of Listed Fire Alarm Cables"}
+  },
+  {
+    "categoryCode": "BC09",
+    "prompt": "Each sign and outline lighting system shall be provided with what type of branch circuit in accordance with NEC 600.5?",
+    "options": {"A": "Multiwire branch circuit", "B": "Individual branch circuit", "C": "General lighting branch circuit", "D": "Feeder tap"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 600.5(A), each sign and outline lighting system shall be supplied by an individual branch circuit.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "600", "section": "5(A)", "title": "Branch Circuits"}
+  },
+  {
+    "categoryCode": "BC09",
+    "prompt": "The disconnecting means for a sign shall be located within sight of the sign or capable of being locked in accordance with which section?",
+    "options": {"A": "600.6(A)", "B": "600.5(C)", "C": "600.7", "D": "110.26"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 600.6(A), a disconnecting means shall be provided for each sign and shall be within sight or capable of being locked in the open position.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "600", "section": "6(A)", "title": "Disconnects"}
+  },
+  {
+    "categoryCode": "BC09",
+    "prompt": "Elevator feeder conductors shall have an ampacity not less than what percentage of the sum of the nameplate currents of the motors?",
+    "options": {"A": "100%", "B": "115%", "C": "125%", "D": "150%"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 620.14, feeder conductors for elevators shall have an ampacity of not less than 125% of the sum of the nameplate currents of the motors.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "620", "section": "14", "title": "Feeder Demand Factors"}
+  },
+  {
+    "categoryCode": "BC09",
+    "prompt": "An elevator disconnecting means shall be located where?",
+    "options": {"A": "Within the machine room and readily accessible", "B": "At the main service only", "C": "In the hoistway", "D": "Within the elevator car"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 620.51(A), the disconnecting means for an elevator shall be located in the machine room or control room and be readily accessible.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "620", "section": "51(A)", "title": "Disconnecting Means"}
+  },
+  {
+    "categoryCode": "BC09",
+    "prompt": "Electric vehicle supply equipment rated 60 amperes or more shall be permanently connected and fastened in place in accordance with which section?",
+    "options": {"A": "625.17(A)", "B": "625.17(B)", "C": "625.22", "D": "625.40"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 625.17(B), EV supply equipment rated at 60 amperes or more shall be permanently connected and fastened in place.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "625", "section": "17(B)", "title": "Electric Vehicle Coupler"}
+  },
+  {
+    "categoryCode": "BC09",
+    "prompt": "Equipotential bonding for swimming pools shall include bonding of which of the following?",
+    "options": {"A": "Only the pool pump motor", "B": "Only metallic piping", "C": "All metallic parts within 5 feet of the inside walls of the pool", "D": "Only reinforcing steel"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 680.26(B), equipotential bonding shall include all metallic parts within 5 feet of the inside walls of the pool.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "680", "section": "26(B)", "title": "Equipotential Bonding"}
+  },
+  {
+    "categoryCode": "BC09",
+    "prompt": "The equipotential bonding conductor for a swimming pool shall not be smaller than what size copper conductor?",
+    "options": {"A": "10 AWG", "B": "8 AWG", "C": "6 AWG", "D": "4 AWG"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 680.26(B)(2), the equipotential bonding conductor shall not be smaller than 8 AWG copper.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "680", "section": "26(B)(2)", "title": "Equipotential Bonding Conductor"}
+  },
+  {
+    "categoryCode": "BC09",
+    "prompt": "The maximum current for a photovoltaic source circuit shall be calculated as what percentage of the module short-circuit current?",
+    "options": {"A": "100%", "B": "115%", "C": "125%", "D": "150%"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 690.8(A)(1), the maximum current for a PV source circuit shall be 125% of the module short-circuit current.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "690", "section": "8(A)(1)", "title": "Maximum Circuit Current"}
+  },
+  {
+    "categoryCode": "BC09",
+    "prompt": "PV circuit conductors shall have an ampacity not less than what percentage of the maximum current as calculated in 690.8?",
+    "options": {"A": "100%", "B": "115%", "C": "125%", "D": "156%"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 690.8(B)(1), PV circuit conductors shall have an ampacity not less than 125% of the maximum currents as calculated in 690.8(A).",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "690", "section": "8(B)(1)", "title": "Conductor Ampacity"}
+  },
+  {
+    "categoryCode": "BC09",
+    "prompt": "The ampacity of conductors supplying an arc welder shall be determined in accordance with which NEC article?",
+    "options": {"A": "Article 430", "B": "Article 422", "C": "Article 630", "D": "Article 440"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 Article 630, conductors supplying arc welders shall be sized in accordance with the requirements of Article 630.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "630", "section": "", "title": "Electric Welders"}
+  },
+  {
+    "categoryCode": "BC10",
+    "prompt": "A location in which flammable gases or vapors are present in the air under normal operating conditions is classified as which of the following?",
+    "options": {"A": "Class I, Division 1", "B": "Class I, Division 2", "C": "Class II, Division 1", "D": "Class III, Division 2"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 500.5(B)(1), Class I, Division 1 locations are those in which ignitable concentrations of flammable gases or vapors exist under normal operating conditions.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "500", "section": "5(B)(1)", "title": "Class I Locations"}
+  },
+  {
+    "categoryCode": "BC10",
+    "prompt": "A location where combustible dust is present under normal operating conditions in sufficient quantities to produce explosive mixtures is classified as:",
+    "options": {"A": "Class I, Division 1", "B": "Class II, Division 1", "C": "Class II, Division 2", "D": "Class III, Division 1"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 500.5(C)(1), Class II, Division 1 locations are those in which combustible dust is present in the air under normal operating conditions in sufficient quantity to produce explosive mixtures.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "500", "section": "5(C)(1)", "title": "Class II Locations"}
+  },
+  {
+    "categoryCode": "BC10",
+    "prompt": "Wiring methods permitted in Class I, Division 1 locations shall comply with which NEC article?",
+    "options": {"A": "Article 501", "B": "Article 502", "C": "Article 503", "D": "Article 511"},
+    "answer": "A",
+    "explanation": "Per NEC 2020 501.10(A), wiring methods for Class I, Division 1 locations shall comply with the requirements of Article 501.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "501", "section": "10(A)", "title": "Wiring Methods"}
+  },
+  {
+    "categoryCode": "BC10",
+    "prompt": "Wiring methods in Class II, Division 1 locations shall be installed in accordance with which NEC article?",
+    "options": {"A": "Article 501", "B": "Article 502", "C": "Article 503", "D": "Article 514"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 502.10(A), wiring methods for Class II, Division 1 locations shall comply with Article 502.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "502", "section": "10(A)", "title": "Wiring Methods"}
+  },
+  {
+    "categoryCode": "BC10",
+    "prompt": "In commercial repair garages, areas up to what height above the floor where flammable vapors may be present are classified as Class I, Division 2?",
+    "options": {"A": "6 inches", "B": "12 inches", "C": "18 inches", "D": "24 inches"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 511.3(C), areas up to 18 inches above the floor in commercial repair garages are classified as Class I, Division 2 where flammable vapors may be present.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "511", "section": "3(C)", "title": "Area Classification"}
+  },
+  {
+    "categoryCode": "BC10",
+    "prompt": "Electrical equipment installed within 20 feet of a motor fuel dispenser shall comply with which NEC article?",
+    "options": {"A": "Article 500", "B": "Article 501", "C": "Article 514", "D": "Article 517"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 514.3, electrical equipment within classified locations at motor fuel dispensing facilities shall comply with Article 514.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "514", "section": "3", "title": "Classified Locations"}
+  },
+  {
+    "categoryCode": "BC10",
+    "prompt": "Branch circuits serving patient care spaces in health care facilities shall provide which type of equipment grounding conductor?",
+    "options": {"A": "Single equipment grounding conductor only", "B": "No equipment grounding conductor required", "C": "An insulated copper equipment grounding conductor and a metal raceway or cable armor", "D": "Grounding through structural steel only"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 517.13(A) and (B), branch circuits serving patient care spaces shall have an insulated copper equipment grounding conductor in addition to a metal raceway or cable armor.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "517", "section": "13", "title": "Grounding of Receptacles and Fixed Equipment in Patient Care Spaces"}
+  },
+  {
+    "categoryCode": "BC10",
+    "prompt": "Assembly occupancies shall comply with which NEC article?",
+    "options": {"A": "Article 500", "B": "Article 518", "C": "Article 520", "D": "Article 550"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 518.1, wiring and equipment in assembly occupancies shall comply with Article 518.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "518", "section": "1", "title": "Scope"}
+  },
+  {
+    "categoryCode": "BC10",
+    "prompt": "Mobile homes shall be provided with which of the following for the feeder assembly?",
+    "options": {"A": "Two-wire with no equipment grounding conductor", "B": "Three-wire with grounded neutral only", "C": "Four-wire feeder assembly including equipment grounding conductor", "D": "Flexible cord without grounding"},
+    "answer": "C",
+    "explanation": "Per NEC 2020 550.10(A), mobile homes shall be supplied by a four-wire feeder assembly including an equipment grounding conductor.",
+    "difficulty": 3,
+    "status": "validated",
+    "necRef": {"article": "550", "section": "10(A)", "title": "Feeder Assembly"}
+  },
+  {
+    "categoryCode": "BC10",
+    "prompt": "Arc-fault circuit-interrupter protection in mobile homes shall be provided in accordance with which NEC section?",
+    "options": {"A": "210.12", "B": "550.25", "C": "517.13", "D": "514.3"},
+    "answer": "B",
+    "explanation": "Per NEC 2020 550.25, arc-fault circuit-interrupter protection shall be provided for mobile homes in accordance with specified requirements.",
+    "difficulty": 4,
+    "status": "validated",
+    "necRef": {"article": "550", "section": "25", "title": "Arc-Fault Circuit-Interrupter Protection"}
+  }
+]
