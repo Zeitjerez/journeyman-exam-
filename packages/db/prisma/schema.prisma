@@ -1,0 +1,79 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model BlueprintCategory {
+  code        String              @id @db.VarChar(10)
+  name        String              @db.VarChar(255)
+  description String              @db.Text
+  weight      Decimal?            @db.Decimal(5, 2)
+  isActive    Boolean             @default(true)
+  questions   QuestionTemplate[]
+
+  @@map("blueprint_categories")
+}
+
+model NecRef {
+  id        String   @id @default(uuid()) @db.Uuid
+  article   String   @db.VarChar(50)
+  section   String   @default("") @db.VarChar(50)
+  title     String   @db.VarChar(500)
+  edition   String   @default("2020") @db.VarChar(10)
+  createdAt DateTime @default(now()) @map("created_at")
+
+  questions QuestionTemplateNecRef[]
+
+  @@index([article, section])
+  @@map("nec_refs")
+}
+
+model QuestionTemplate {
+  id           String   @id @default(uuid()) @db.Uuid
+  categoryCode String   @map("category_code") @db.VarChar(10)
+  prompt       String   @db.Text
+  options      Json?
+  answer       String   @db.VarChar(10)
+  explanation  String   @db.Text
+  difficulty   Int      @default(3) @db.SmallInt
+  status       String   @default("draft") @db.VarChar(20)
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  category BlueprintCategory        @relation(fields: [categoryCode], references: [code], onDelete: Restrict)
+  necRefs  QuestionTemplateNecRef[]
+
+  @@index([categoryCode])
+  @@index([status])
+  @@index([difficulty])
+  @@map("question_templates")
+}
+
+model QuestionTemplateNecRef {
+  questionId String  @map("question_id") @db.Uuid
+  necRefId   String  @map("nec_ref_id") @db.Uuid
+  isPrimary  Boolean @default(false) @map("is_primary")
+
+  question QuestionTemplate @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  necRef   NecRef           @relation(fields: [necRefId], references: [id], onDelete: Restrict)
+
+  @@id([questionId, necRefId])
+  @@map("question_template_nec_refs")
+}
+
+model Exam {
+  id               String    @id @default(uuid()) @db.Uuid
+  totalQuestions   Int       @map("total_questions") @db.SmallInt
+  blueprintVersion String    @map("blueprint_version") @db.VarChar(20)
+  createdAt        DateTime  @default(now()) @map("created_at")
+  completedAt      DateTime? @map("completed_at")
+
+  @@index([createdAt])
+  @@map("exams")
+}

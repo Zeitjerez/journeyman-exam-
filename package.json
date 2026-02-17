@@ -1,0 +1,28 @@
+{
+  "name": "journeyman-exam-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Florida Journeyman Electrician Exam Platform",
+  "engines": {
+    "node": ">=20.0.0 <21.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "start": "pnpm --filter web start",
+    "lint": "pnpm -r lint",
+    "type-check": "pnpm -r type-check",
+    "db:generate": "pnpm --filter db generate",
+    "db:push": "pnpm --filter db push",
+    "db:seed": "pnpm --filter db seed",
+    "db:studio": "pnpm --filter db studio"
+  },
+  "keywords": [
+    "electrician",
+    "exam",
+    "nec",
+    "florida"
+  ],
+  "packageManager": "pnpm@8.15.0"
+}
